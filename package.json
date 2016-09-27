@@ -1,8 +1,7 @@
 {
   "name": "grade-tracker",
   "version": "1.0.0",
-  "description": "",
-  "main": "webpack.config.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,5 +20,15 @@
     "react-dom": "^15.3.2",
     "uuid": "^2.0.3",
     "webpack": "^1.13.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nemsae/grade-tracker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Nemsae/grade-tracker/issues"
+  },
+  "homepage": "https://github.com/Nemsae/grade-tracker#readme",
+  "description": ""
 }

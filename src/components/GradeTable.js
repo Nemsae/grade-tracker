@@ -32,6 +32,7 @@ export default class GradeTable extends Component {
   _removeAssignment(id) {
     GradeActions.remove(id);
     GradeActions.total();
+
   }
 
   render() {
@@ -57,6 +58,7 @@ export default class GradeTable extends Component {
               <td>{assignment.letter}</td>
               <td>
                 <button onClick={()=> this._removeAssignment(assignment.id)} className="btn btn-sm btn-danger">X</button>
+                {/* <button onClick={this._removeAssignment(assignment.id)} className="btn btn-sm btn-danger">X</button> */}
               </td>
             </tr>
           ))}
